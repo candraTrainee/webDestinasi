@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<!-- remixIcon -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.5.0/remixicon.css" integrity="sha512-6p+GTq7fjTHD/sdFPWHaFoALKeWOU9f9MPBoPnvJEWBkGS4PKVVbCpMps6IXnTiXghFbxlgDE8QRHc3MU91lJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="output.css">
+</head>
+<body>
+	<!------------- header  ------------->
+	<header class="bg-primaryColor fixed top-0 left-0 w-full z-50">
+		<nav class="container relative h-14 flex justify-between items-center">
+			<div>
+				<a href="#" class="text-2xl uppercase font-bold">Mai
+					<span class="text-yellow-600">Tewuna</span>
+				</a>
+			</div>
+			<div class="hidden absolute top-0 left-0 w-full py-14 bg-primaryColor border-b border-secondryColor md:block md:static md:py-0 md:border-none md:w-auto md:ml-auto" id="nav-menu">
+				<ul class="flex flex-col text-center gap-5 md:flex-row">
+					<li><a href="#home" class="nav-link hover:text-secondryColor ease-in duration-200">Beranda</a></li>
+					<li><a href="#" class="nav-link hover:text-secondryColor ease-in duration-200">Rencana Terbit</a></li>
+					<li><a href="#" class="nav-link hover:text-secondryColor ease-in duration-200">Produk</a></li>
+					<li><a href="#" class="nav-link hover:text-secondryColor ease-in duration-200">Layana</a></li>
+					<li><a href="#" class="nav-link hover:text-secondryColor ease-in duration-200">Informasi Piblik</a></li>
+				</ul>
+				<div class="absolute top-[0.7rem] right-4 text-2xl cursor-pointer md:hidden" id="close-icon">
+					<i class="ri-close-large-line"></i>
+				</div>
+			</div>
+
+			<div class="flex items-center gap-5">
+				<i class="ri-moon-line cursor-pointer ml-4 text-xl"></i>
+
+				<div id="hamburger" class="md:hidden">
+					<i class="ri-menu-4-line cursor-pointer text-xl"></i>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<!------------- home ------------->
+	<section id="home">
+		<div class="container flex flex-col items-center gap-10">
+			<div class="mx-auto">
+				<img src="img/logoDark.png" alt="">
+			</div>
+
+			<div class="text-center">
+				<h1 class="home-title">Selamat Datang di Destinasi Wisata!</h1>
+				<div class="separator mx-auto"></div>
+				<p class="paragraf">Apakah Anda sedang mencari tempat untuk melarikan diri dari rutinitas sehari-hari? Destinasi Wisata adalah pilihan yang sempurna! Terletak di <span>Kab.Muna</span>, kami menawarkan pengalaman wisata yang unik dengan pemandangan alam yang menakjubkan, berbagai aktivitas seru, dan budaya lokal yang kaya.</p>
+				<div class="text-base flex items-center justify-center gap-4 py-10">
+					<div class="text-center">
+						<i class="ri-flight-land-line text-secondryColor text-4xl"></i>
+						<br>
+						FlightLand
+					</div>
+					<div class="text-center">
+						<i class="ri-pin-distance-line text-secondryColor text-4xl"></i>
+						<br>
+						Destinasi
+					</div>
+					<div class="text-center">
+						<i class="ri-flight-takeoff-line text-secondryColor text-4xl"></i>
+						<br>
+						FlightTakeoff
+					</div>
+				</div>
+				<a href="#">Learn More</a>
+			</div>
+		</div>
+	</section>
+
+
+	<!-- script -->
+	 <script src="script.js"></script>
+</body>
+</html>
